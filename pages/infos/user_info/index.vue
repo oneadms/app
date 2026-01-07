@@ -27,7 +27,7 @@
 							<input type='text' name='nickname' :value='userInfo.nickname' maxlength="20"></input>
 							<!-- #endif -->
 							<!-- #ifdef MP -->
-							<input type="nickname" name='nickname' :value='nickname' class="weui-input"
+							<input type="nickname" name='nickname'  :value='nickname' class="weui-input"
 								placeholder="请输入昵称" />
 							<!-- #endif -->
 						</view>
@@ -173,7 +173,7 @@
 			},
 			/**
 			 * 小程序端上传头像
-			 * 
+			 *
 			 */
 			onChooseAvatar(e) {
 				const {
@@ -206,7 +206,7 @@
 			},
 			/**
 			 * 退出登录
-			 * 
+			 *
 			 */
 			outLogin: function() {
 				let that = this;
@@ -239,7 +239,7 @@
 			},
 			/**
 			 * 上传文件
-			 * 
+			 *
 			 */
 			uploadpic: function() {
 				let that = this;
